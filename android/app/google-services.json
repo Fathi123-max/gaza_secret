@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1024091971826",
+    "project_id": "gaza-secret",
+    "storage_bucket": "gaza-secret.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1024091971826:android:d6103cffe6baba6294706b",
+        "android_client_info": {
+          "package_name": "com.example.gaza_secret"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDiNZXEV3orcys05clcrGNgCR7IE5E1aX8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
