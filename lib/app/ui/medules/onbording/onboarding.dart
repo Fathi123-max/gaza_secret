@@ -1,5 +1,6 @@
 // ignore_for_file: public_member_api_docs, sort_constructors_first
 import 'package:flutter/material.dart';
+import 'package:gaza_secret/app/routes/app_pages.dart';
 import 'package:get/get.dart';
 import 'package:get_storage/get_storage.dart';
 import 'package:intro_slider/intro_slider.dart';
@@ -74,7 +75,9 @@ class OnBoardingScreensState extends State<OnBoardingScreens> {
     navigateToAfterDonePressed();
   }
 
-  void navigateToAfterDonePressed() {}
+  void navigateToAfterDonePressed() {
+    Get.toNamed(Routes.INITIAL);
+  }
 
   @override
   Widget build(BuildContext context) {
