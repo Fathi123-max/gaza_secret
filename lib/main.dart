@@ -33,7 +33,9 @@ void main() async {
         return GetMaterialApp(
           debugShowCheckedModeBanner: false,
           initialRoute: Routes.SplashScreen,
-          theme: appThemeData,
+          theme: ThemeData(useMaterial3: true, colorScheme: lightColorScheme),
+          darkTheme:
+              ThemeData(useMaterial3: true, colorScheme: darkColorScheme),
           defaultTransition: Transition.cupertino,
           getPages: AppPages.pages,
           locale: Locale('pt', 'BR'),
