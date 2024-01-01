@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:gaza_secret/app/controller/details/details_controller.dart';
-import 'package:gaza_secret/app/ui/android/widgets/button_widget.dart';
+import 'package:gaza_secret/app/ui/medules/widgets/button_widget.dart';
 import 'package:get/get.dart';
 
 class CardBottomButtonsWidget extends StatelessWidget {

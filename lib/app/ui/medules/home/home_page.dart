@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:gaza_secret/app/controller/home/home_controller.dart';
-import 'package:gaza_secret/app/ui/android/widgets/loading_widget.dart';
+import 'package:gaza_secret/app/ui/medules/widgets/loading_widget.dart';
 import 'package:get/get.dart';
 
 class HomePage extends GetView<HomeController> {
