@@ -1,12 +1,28 @@
+import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:gaza_secret/app/routes/app_pages.dart';
 import 'package:gaza_secret/app/translations/app_translations.dart';
 import 'package:get/get.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:get_storage/get_storage.dart';
+import 'package:onesignal_flutter/onesignal_flutter.dart';
 
 import 'app/ui/theme/app_theme.dart';
 
-void main() {
+void main() async {
+//   WidgetsFlutterBinding.ensureInitialized();
+//   // await Firebase.initializeApp(
+//   //   options: DefaultFirebaseOptions.currentPlatform,
+//   // );
+//   await GetStorage.init();
+
+//   OneSignal.Debug.setLogLevel(OSLogLevel.verbose);
+
+//   OneSignal.initialize("2a4b072d-c8d1-4072-9886-a9030023ccc5");
+
+// // The promptForPushNotificationsWithUserResponse function will show the iOS or Android push notification prompt. We recommend removing the following code and instead using an In-App Message to prompt for notification permission
+//   OneSignal.Notifications.requestPermission(true);
+
   runApp(ScreenUtilInit(
       designSize: const Size(360, 690),
       minTextAdapt: true,
@@ -15,7 +31,7 @@ void main() {
       builder: (_, child) {
         return GetMaterialApp(
           debugShowCheckedModeBanner: false,
-          initialRoute: Routes.INITIAL,
+          initialRoute: Routes.SplashScreen,
           theme: appThemeData,
           defaultTransition: Transition.cupertino,
           getPages: AppPages.pages,

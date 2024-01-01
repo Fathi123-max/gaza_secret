@@ -43,6 +43,11 @@ dependencies:
   http: 
   flutter_slimy_card: ^1.0.2 
   flutter_screenutil: ^5.9.0
+  tbib_splash_screen: ^1.0.0
+  intro_slider: ^4.2.1
+  get_storage: ^2.1.1
+  firebase_core: ^2.24.2
+  onesignal_flutter: ^5.0.4
 
 dev_dependencies:
   flutter_test:
