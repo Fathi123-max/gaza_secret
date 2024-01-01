@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:gaza_secret/app/controller/details/details_controller.dart';
-import 'package:gaza_secret/app/ui/theme/app_text_theme.dart';
+import 'package:gaza_secret/app/ui/theme/styles/app_text_theme.dart';
 import 'package:get/get.dart';
 
 class CardTopCustomWidget extends StatelessWidget {
